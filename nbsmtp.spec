@@ -16,12 +16,13 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 nbSMTP is a simple SMTP client suitable to run in chroot jails, in
 embeded systems, laptops, workstations. It's written in C and it
 compiles and runs under lot of Unix flavors such as Linux, MacOSX, or
-FreeBSD(it practically runs on any Unix flavor).
+FreeBSD.
 
 %description -l pl
-nbSMTP jest prostym klientem SMTP do uruchamiania w chrootcie, na
-laptopach, stacjach roboczych. Jest napisany w C, kompiluje siê i
-uruchamia na praktycznie ka¿dej uniksowej platformie.
+nbSMTP jest prostym klientem SMTP odpowiednim do ruchamienia w
+chronionym ¶rodowisku,w systemach osadzonych, na laptopach, stacjach
+roboczych. Jest napisany w C, kompiluje siê i uruchamia na praktycznie
+ka¿dej uniksowej platformie jak Linux, MacOSX czy FreeBSD.
 
 %prep
 %setup -q
