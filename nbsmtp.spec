@@ -14,7 +14,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 nbSMTP is a simple SMTP client suitable to run in chroot jails, in
-embeded systems, laptops, workstations. It's written in C and it
+embedded systems, laptops, workstations. It's written in C and it
 compiles and runs under lot of Unix flavors such as Linux, MacOSX, or
 FreeBSD.
 
