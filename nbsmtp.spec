@@ -19,10 +19,10 @@ compiles and runs under lot of Unix flavors such as Linux, MacOSX, or
 FreeBSD.
 
 %description -l pl
-nbSMTP jest prostym klientem SMTP odpowiednim do ruchamienia w
-chronionym ¶rodowisku,w systemach osadzonych, na laptopach, stacjach
+nbSMTP jest prostym klientem SMTP odpowiednim do uruchamiania w
+chronionym ¶rodowisku, w systemach osadzonych, na laptopach, stacjach
 roboczych. Jest napisany w C, kompiluje siê i uruchamia na praktycznie
-ka¿dej uniksowej platformie jak Linux, MacOSX czy FreeBSD.
+ka¿dej uniksowej platformie takiej jak Linux, MacOSX czy FreeBSD.
 
 %prep
 %setup -q
