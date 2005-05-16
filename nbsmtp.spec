@@ -1,12 +1,12 @@
 Summary:	Simple mailer
 Summary(pl):	Prosty program do wysy³ania e-maili
 Name:		nbsmtp
-Version:	0.98
+Version:	0.99
 Release:	1
 License:	GPL v2
 Group:		Applications/Mail
 Source0:	http://www.it.uc3m.es/~ferdy/nbsmtp/%{name}-%{version}.tar.gz
-# Source0-md5:	fe055f4e01e6cfd9eb9c80681a42f7eb
+# Source0-md5:	311c77787b91cdc63eb24e7d74547127
 Patch0:		%{name}-Makefile.patch
 URL:		http://nbsmtp.ferdyx.org/
 BuildRequires:	openssl-devel

@@ -1,18 +1,23 @@
---- Makefile.in.dist	2005-02-09 16:27:48.406257536 +0100
-+++ Makefile.in	2005-02-09 16:35:54.626340848 +0100
+--- Makefile.in.orig	2005-03-14 00:08:21.000000000 +0100
++++ Makefile.in	2005-05-16 19:40:07.000000000 +0200
 @@ -5,7 +5,7 @@
  libexecdir=@libexecdir@
  doxygen=@doxygen@
  bindir=$(prefix)/bin
 -mandir=$(prefix)/man
 +mandir=@mandir@
+ iconpath=$(prefix)/nbsmtp-@PACKAGE_VERSION@
  INSTALL=@INSTALL@
  
- SRCS=nbsmtp.c base64.c util.c smtp.c fdutil.c original.c fileconfig.c @EXTRASRCS@ main.c
-@@ -28,12 +28,12 @@
- 	$(RM) config.* Makefile
- 
+@@ -31,15 +31,15 @@
  install: nbsmtp
+ 	[ "x@OSXMODULE@" = "xyes" ] \
+ 	&& ( \
+-		$(INSTALL) -d $(iconpath); \
+-		$(INSTALL) nbsmtp-growl.png $(iconpath)/nbsmtp-growl.png; ) \
++		$(INSTALL) -d $(DESTDIR)$(iconpath); \
++		$(INSTALL) nbsmtp-growl.png $(DESTDIR)$(iconpath)/nbsmtp-growl.png; ) \
+ 	|| ( true )
 -	$(INSTALL) -d $(bindir)
 -	$(INSTALL) nbsmtp $(bindir)/nbsmtp
 -	$(INSTALL) -d $(mandir)/man8
