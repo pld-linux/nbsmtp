@@ -1,5 +1,5 @@
 Summary:	Simple mailer
-Summary(pl):	Prosty program do wysy³ania e-maili
+Summary(pl.UTF-8):   Prosty program do wysyÅ‚ania e-maili
 Name:		nbsmtp
 Version:	1.00
 Release:	1
@@ -18,11 +18,11 @@ embedded systems, laptops, workstations. It's written in C and it
 compiles and runs under lot of Unix flavors such as Linux, MacOSX, or
 FreeBSD.
 
-%description -l pl
+%description -l pl.UTF-8
 nbSMTP jest prostym klientem SMTP odpowiednim do uruchamiania w
-chronionym ¶rodowisku, w systemach osadzonych, na laptopach, stacjach
-roboczych. Jest napisany w C, kompiluje siê i uruchamia na praktycznie
-ka¿dej uniksowej platformie takiej jak Linux, MacOSX czy FreeBSD.
+chronionym Å›rodowisku, w systemach osadzonych, na laptopach, stacjach
+roboczych. Jest napisany w C, kompiluje siÄ™ i uruchamia na praktycznie
+kaÅ¼dej uniksowej platformie takiej jak Linux, MacOSX czy FreeBSD.
 
 %prep
 %setup -q
