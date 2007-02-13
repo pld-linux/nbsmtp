@@ -1,5 +1,5 @@
 Summary:	Simple mailer
-Summary(pl.UTF-8):   Prosty program do wysyłania e-maili
+Summary(pl.UTF-8):	Prosty program do wysyłania e-maili
 Name:		nbsmtp
 Version:	1.00
 Release:	1
